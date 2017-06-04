@@ -1,0 +1,87 @@
+.img-group {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    width: 80px;    
+    height: 80px;
+    z-index: 3;
+    /*background-image: url("./camera.png");    */
+    /*background-size: 100px;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.img-tip {
+  padding: 10px;
+  font-family: Tahoma, Geneva, sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 170px;
+  width: 200px;
+  font-size: 2em;
+  background: #333;
+  color: #fff;
+  opacity: 0.8;
+  display: none;
+}
+
+.img-group:hover .img-tip {
+  display: inline-block;
+  text-align: left;  
+}
+
+.camera {
+    width: 60px;    
+    z-index: 1;        
+}
+
+.cub {
+    position: absolute;
+    box-sizing: border-box;
+    background: #050016;
+    border-width: 50px;
+    opacity: 0;
+    display: inline-block;   
+    z-index: 0; 
+}
+
+.cub:hover {
+    opacity: 0.6;
+}
+.cubop {
+    opacity: 0.6;    
+}
+
+button {
+    position: absolute;
+    left: 80px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    border: 0px solid;
+    border-color: #ffffff;
+    border-radius: 10px; 
+    background-color: transparent;
+    outline: none;
+}
+
+button:hover {
+        color: #eb8c5c;
+}
+
+.lin {
+    position: absolute;
+    background: #050016;
+    opacity: 0;
+}
+.lin:hover {
+    opacity: 0.6
+}
+
+.linop {
+    opacity: 0.6
+}
